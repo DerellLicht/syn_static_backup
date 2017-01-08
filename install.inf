@@ -1,0 +1,11 @@
+[info]
+title=Static backup directory
+desc=Creates backup of current file in specified subdirectory
+type=py-plugin
+subdir=syn_static_backup
+
+[ini1]
+section=Events
+id=StaticBackup
+params=on_save_pre
+
